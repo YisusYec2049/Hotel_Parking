@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:hotel_parking/Widgets/Appbar_Custom_Widget.dart';
 import 'package:hotel_parking/Widgets/IconBottoms.dart';
 
-class Admin extends StatefulWidget {
-  const Admin({super.key});
+class Vigilant extends StatefulWidget {
+  const Vigilant({super.key});
   @override
-  State<Admin> createState() => _AdminState();
+  State<Vigilant> createState() => _VigilantState();
 }
 
-class _AdminState extends State<Admin> {
+class _VigilantState extends State<Vigilant> {
   @override
   void initState() {
     super.initState();
@@ -29,8 +29,7 @@ class _AdminState extends State<Admin> {
           child: Stack(
             children: [
               AppBarCustomWidget(),
-              Scan_Admin_Widget(),
-              Add_Bottom_Widget(),
+              Scan_Vigilant_Widget(),
               ReturnLogin_Bottom_Widget(),
             ],
           ),

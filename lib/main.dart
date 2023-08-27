@@ -26,9 +26,5 @@ class _MyAppState extends State<MyApp> {
       title: 'Material App',
       home: Login(),
     );
-    // home: Scaffold(
-    //   appBar: AppBarCustomWidget(),
-    //   //body: SafeArea(child: Admin())),
-    // ));
   }
 }
